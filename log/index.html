@@ -193,7 +193,7 @@
   const ipt = document.querySelector('#search-input')
   const btn = document.querySelector('#search-btn')
   const layer = document.querySelector('#search-layer')
-  const posts = JSON.parse(`[{"title":"Hello World","path":"2025/09/23/hello-world/"},{"title":"My New Post","path":"2025/09/24/My-New-Post/"}]`)
+  const posts = JSON.parse(`[{"title":"My New Post","path":"2025/09/24/My-New-Post/"},{"title":"Hello World","path":"2025/09/23/hello-world/"}]`)
   ipt.addEventListener('keyup', e => {
     if (e.key === 'Enter') {
       handleSearch()
@@ -353,14 +353,18 @@
 
 <div class="log">
   
+    <div class="log-item">
+      <h2 class="log-title">
+        <span>2025-09-25 14:28:51</span>
+        <span>星期四</span>
+      </h2>
+      <h1 class="log-main-title"><a href="/./log/logName.html">logName</a></h1>
+      <div class="log-wrapper false" style="max-height: 1000px;">
+        <article class="article-content"></article>
+        
+      </div>
+    </div>
   
-    <link rel="stylesheet" href="/css/partial/empty.css" />
-
-<div class="empty empty-container">
-  <p>啊哦~</p>
-  <p>这里暂时什么也没有哦o(╥﹏╥)o</p>
-</div>
-
   
 </div>
 
